@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Awesome Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-slate-500" style="grid-area: header;">
+        <p>Programming languages</p>
+    </div>
+    <div class="bg-sky-300" style="grid-area: main;">
+        <p><a href="https://en.wikipedia.org/wiki/Programming_language">Programming language</a></p>
+        <article>
+            <div class="bg-red-700 shadow-2xl">
+                <p> <a href="https://en.wikipedia.org/wiki/Programming_language">Programming language</a> </p>
+                <p class="text-sky-400"><strong>Programming languages</strong> are used to write <em>computer programs</em> and applications. They are created by humans and are designed to be easy to read and write. There are many programming languages, and new ones are created all the time. Some of the most popular programming languages are JavaScript, Python, and Java.</p>
+            </div>
+            <h2>Programming language table</h2>
+        <table class="bg-orange-400 text-red-600 table-auto">
+            <tr>
+                <th>Language</th>
+                <th>Creator</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Brendan Eich</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Guido van Rossum</td>
+                <td>1991</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>James Gosling</td>
+                <td>1995</td>
+            </tr>
+        </table>
+    
+        <ol  type="I">
+            <li>    
+                <details>
+                    <summary>JavaScript</summary>
+                    <p >JavaScript is a powerful programming language that is widely used for web development. It allows you to add interactivity and dynamic behavior to your web pages. JavaScript runs on the client-side, meaning it is executed by the web browser on the user's device.
+                    </p>
+                </details> <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo-2048x1280.png" alt="logo" width="40" height="40" /> 
+            </li>
+            <li>    
+                <details>
+                    <summary>Python</summary>
+                    <p>Python is a popular programming language known for its simplicity and readability. It is widely used for various purposes, including web development, data analysis, artificial intelligence, and automation. Python's syntax is designed to be easy to understand, making it a great choice for beginners.</p>
+                </details> <img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo.png" alt="logo" width="40" height="40" /> 
+            </li>
+            <li>
+                <details>
+                    <summary>Java</summary>
+                    <p>Java is a popular programming language that was created by James Gosling and his team at Sun Microsystems (now owned by Oracle). It was first released in 1995 and has since become one of the most widely used programming languages in the world.                </p>
+                </details>  <img src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png" alt="logo" width="40" height="40" /> 
+            </li>
+        </ol>
+    
+        <div class="flex flex-row">
+            <div class="bg-orange-400">Java</div>
+            <div class="bg-red-400">Python</div>
+            <div class="bg-stone-400">JavaScript</div>
+        </div>
+        <div class="flex flex-row-reverse">
+            <div class="bg-orange-400">Java</div>
+            <div class="bg-red-400">Python</div>
+            <div class="bg-stone-400">JavaScript</div>
+        </div>
+        <div class="flex flex-col">
+            <div class="bg-orange-400">Java</div>
+            <div class="bg-red-400">Python</div>
+            <div class="bg-stone-400">JavaScript</div>
+        </div>
+    
+        <div class="flex">
+            <div class="flex-none bg-orange-400">
+                Java
+            </div>
+            <div class="flex-auto w-64 bg-red-400">
+                Python
+            </div>
+            <div class="flex-auto w-32 bg-stone-400">
+              JavaScript
+            </div>
+          </div>
+    
+    
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="Type">Type:</label>
+            <select id="type" name="type">
+                <option value="interpreted">interpreted</option>
+                <option value="compiled">compiled</option>
+            </select>
+            <br>
+            <input class="shadow-md" type="button" value="Submit">
+        </form>
+        Progress Bar
+        <progress class="animate-ping" value="50" max="100"></progress>
+        <h2>Programming language map</h2>
+        <img src="https://scriptcaseblog.net/wp-content/uploads/2019/01/java-javascript-php-python-logo.png" usemap="#image-map">
+        <map name="image-map">
+            <area target="" alt="Java" title="Java" href="https://en.wikipedia.org/wiki/Java_(programming_language)" coords="177,201,34,12" shape="rect">
+            <area target="" alt="JS" title="JS" href="https://en.wikipedia.org/wiki/JavaScript" coords="193,12,335,203" shape="rect">
+            <area target="" alt="PHP" title="PHP" href="https://en.wikipedia.org/wiki/PHP" coords="336,11,491,205" shape="rect">
+            <area target="" alt="Python" title="Python" href="https://en.wikipedia.org/wiki/Python_(programming_language)" coords="640,200,495,13" shape="rect">
+        </map>
+    
+        </article>
+    </div>
+    <div class="bg-orange-500" style="grid-area: sidebar;">
+        <p>menu boczne</p>
+    </div>
+    <div class="bg-sky-500" style="grid-area: footer;">
+        <p>Zrobione na laboratoria AWWW</p>
+    </div>
+</body>
+</html>
